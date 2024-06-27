@@ -1,0 +1,15 @@
+.container{
+        width: 80%;
+
+        border-radius: 10px;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+
+        
+}
+.heading{
+    font-style: italic;
+    color: rgba(179, 45, 45, 0.871);
+}

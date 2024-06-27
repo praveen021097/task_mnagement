@@ -1,9 +1,9 @@
 import React from 'react'
 import Tasks from '../components/Tasks'
-
+import styles from "./Homepage.module.css";
 const Homepage = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <Tasks />
     </div>
   )

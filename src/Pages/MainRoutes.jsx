@@ -6,7 +6,7 @@ const MainRoutes = () => {
   return (
    <Routes>
     <Route path='/' element={<Homepage />} />
-    <Route path='/single-task' element={<SingleTask />} />
+    <Route path='/single-task/:id' element={<SingleTask />} />
    </Routes>
   )
 }
